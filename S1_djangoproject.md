@@ -66,9 +66,19 @@ Vous pouvez maintenant ouvrir cette url (très souvent `http://127.0.0.1:8000/`)
 
 Dans ce projet, nous utiliserons `SQLite` comme gestionnaire de based de données. Il s’agit du choix le plus simple. SQLite est inclus dans Python, vous n’aurez donc rien d’autre à installer pour utiliser ce type de base de données. 
 
+Nous nous rappellons aussi deux tutoriaux qui pourront vous être utiles pour la suite :
+
+* [Tutoriel de Zeste de savoirs](https://zestedesavoir.com/tutoriels/1294/des-bases-de-donnees-en-python-avec-sqlite3/)
+* [Tutoriel ISN](https://fiches-isn.readthedocs.io/fr/latest/sqlite.html)
+
+Nous vous rappelons aussi ce que vous avez fait pendant le cours de SIP : [ici](https://wdi.centralesupelec.fr/1CC1000/QueryingADatabase) et [ici](https://wdi.centralesupelec.fr/1CC1000/SolutionsTD2FDDkIBEFds) ainsi que le travail sur le [TD Pistus](https://wdi.centralesupelec.fr/1CC1000/Pistus).
+
+
+
+
 Pour un projet plus conséquent, vous pouvez bien-sûr utiliser une base de données plus résistante à la charge comme `PostgreSQL`. 
 
-Si vous souhaitez utiliser une autre base de données, il faut suivre ce [tutoriel](https://docs.djangoproject.com/fr/3.1/topics/install/#database-installation) et ce [guide](https://docs.djangoproject.com/fr/3.1/ref/settings/#std:setting-DATABASES).
+Si vous souhaitez utiliser une autre base de données, il faut suivre les consignes de ce [tutoriel](https://docs.djangoproject.com/fr/3.1/topics/install/#database-installation) et ce [guide](https://docs.djangoproject.com/fr/3.1/ref/settings/#std:setting-DATABASES). La [partie dédiée](https://openclassrooms.com/fr/courses/4425076-decouvrez-le-framework-django/4630835-creez-un-nouveau-projet#/id/r-4630761) du tutoriel d'OpenClassRooms est aussi une bonne alternative.
 
 
  
@@ -223,7 +233,21 @@ Par défaut, INSTALLED_APPS contient les applications suivantes, qui sont toutes
 Ces applications sont incluses par défaut par commodité parce que ce sont les plus communément utilisées.
 
 
+Certaines de ces applications utilisent au moins une table de la base de données, donc il faut créer les tables dans la base avant de pouvoir les utiliser. Il faut donc lancer la commande 
 
+```
+python manage.py migrate
+```
+ 
+ 
+Cette commande examine `INSTALLED_APPS` et crée les tables de base de données nécessaires en fonction des réglages de base de données dans votre fichier `mysite/settings.py` ainsi que des migrations de base de données contenues dans l’application.
+
+
+Vous verrez apparaître un message pour chaque migration appliquée. 
+ 
+Vous pouvez si le souhaitez lancez le client en ligne de commande de votre base de données pour afficher les tables créées par Django.  (dans notre cas `sqlite` ne possède pas vraiment de client, mais vous pourriez quand même utiliser la commande `sqlite3` et pour accéder au table `.schema`). 
+
+ 
 Nous verrons plus tard comment définir le schéma de la base de données.
 
 

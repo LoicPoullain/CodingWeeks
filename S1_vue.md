@@ -10,9 +10,18 @@ Revenons à notre application `store` et regardons la structuration qui a été 
 + le fichier `models.py` qui regroupera les modèles,
 + le fichier `views.py` qui regroupera les vues.
 
-Il n'y a par contre pas de référence aux templates. Il nous faut donc maintenant créer un repertoire `templates` dans notre application vue qui contiendra les différents gabarits de notre application.
+Il n'y a, par contre, pas de référence aux templates. Il nous faut donc maintenant créer un repertoire `templates` dans notre application vue qui contiendra les différents gabarits de notre application.
+
+```
+mkdir store\templates
+```
+ou directement depuis votre éditeur.
 
 Ajouter ce répertoire à votre projet. On ajoutera ensuite à ce répertoire un sous-repertoire du nom de notre application.
+
+```
+mkdir store\templates\store
+```
 
 Votre projet devrait maintenant avoir cette structuration
 
@@ -21,7 +30,7 @@ Votre projet devrait maintenant avoir cette structuration
 
 ## Etape 2 : Mise à jour des urls.
 
-Les URLs représentent les routes de navigation de notre site. Pour les définir, nous allons ajouter un fichier `urls.py` à notre applicaton `store`.
+Les URLs représentent les routes de navigation de notre site. Pour les définir, nous allons ajouter un fichier `urls.py` à notre applicaton `store`. En effet, nous avons déjà un fichier `urls.py` se situant dans le répertoire consacré à la configuration du projet mais une bonne pratique consiste cependant à créer un fichier `urls.py`  par **application** et à l'importer dand le fichier de route du projet.
 
 ```py
 urlpatterns = []
@@ -31,6 +40,7 @@ Ensuite mettez à jour le fichier `urls.py` du projet `saclay_local`en important
 
 ```py
 from django.contrib import admin
+from django.urls import include, path
 
 ...
 
@@ -208,7 +218,7 @@ Dans notre cas, une des premiers principes est de vérifier du bon nommage (vari
 Dans cette étape **<span style='color:black'> ETAPE REFACTOR</span>**, on peut aussi travailler à l'optimisation des performances du programme si cela s'avère vraiment nécessaire.
  
  
-Dans notre cas, cette étape n'est pas forcement nécéssaire. On peut, pour appliquer le refactoring, par exemple procéder à une étape de renommage sur la variable `message`. En effet, il peut par exemple être plus explicite de nommer cette variable `welcome_message`. Pour réaliser cette étape de renommage, il est fortement conseillé d'utiliser les fonctionnalités de Refactoring de votre IDE. En effet, ici cela ne vous semble peut être pas très utile mais avec un code plus complexe, ce sera très utile. Avec PyCharm Edu, il vous suffit de selectionner la variable à renommer et à acceder au menu **Refactor** par un clic droit (ou par MAJ F6) et d'acceder à la fonctionnalité **Rename** pour saisir le nouveau nom `index` seront alors simultanément renommer en `welcome_message`.
+Dans notre cas, cette étape n'est pas forcement nécéssaire. On peut, pour appliquer le refactoring, par exemple procéder à une étape de renommage sur la variable `message`. En effet, il peut par exemple être plus explicite de nommer cette variable `welcome_message`. Pour réaliser cette étape de renommage, il est fortement conseillé d'utiliser les fonctionnalités de Refactoring de votre IDE. En effet, ici cela ne vous semble peut être pas très utile mais avec un code plus complexe, ce sera très utile. 
 
 
 

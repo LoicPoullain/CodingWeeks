@@ -152,7 +152,7 @@ Pour bien comprendre son principe et son fonctionnement, prenez le temps de lire
 #### <span style="color: #26B260">A ce stade du projet, vous avez atteint le JALON 12 : Se familiariser avec le design pattern MVC </span> 
 
 
-Nous avons maintenant terminé cette fonctionnalté. Nous avons ajouté à notre projet une application `store` qui ne fait rien pour l'instant.
+Nous avons maintenant terminé cette fonctionnalité. Nous avons ajouté à notre projet une application `store` qui ne fait rien pour l'instant.
 
 ## A propos de la gestion des versions
 
