@@ -18,7 +18,7 @@ Nous allons ici nous intéresser à l'ajout d'une application **catalogue** à n
 
 Pour se familiariser avec la notion d'application Django, nous allons installer une applicaton tierce, l'application [Django Debug Toolbar](https://github.com/jazzband/django-debug-toolbar) et l'associer à notre projet `saclay_local`. C'est une application qui fait partie des outils indispensables du développeur django car elle permet de traquer facilement, au travers d'une barre d'outils, les entrées-sorties de votre application (requêtes http, requêtes bdd, sessions...).
 
-C'est une application python que l'on peut donc très simplement installer à l'aide de la commande `pip install django-debug-toolbar` ou directement depuis PyCharmEdu pour l'associer à votre projet.
+C'est une application python que l'on peut donc très simplement installer à l'aide de la commande `pip install django-debug-toolbar` .
 
 Une fois installée, il faut maintenant l'associer à notre projet `saclay_local` ce qui se fait très simplement à l'intérieur du fichier `settings.py` en le modifiant avec les lignes de code ci-dessous :
 
@@ -102,6 +102,21 @@ Ce repertoire contient :
 + `tests.py` : fichier qui contiendra les tests.
 + `views.py` : vues de l'application.
 
+```
+store/
+    __init__.py
+    admin.py
+    apps.py
+    migrations/
+        __init__.py
+    models.py
+    tests.py
+    views.py
+``
+
+
+
+
 
 Il vous reste maintenant à ajouter votre application `store` à votre projet
 `saclay_local` en ajoutant ce code dans le fichier `settings.py`comme vu tout à l'heure
@@ -133,13 +148,22 @@ Django implémente une pattern un peu différent que s'appelle **MVT** (Modèle 
 
 Pour bien comprendre son principe et son fonctionnement, prenez le temps de lire [ce tutorial](https://openclassrooms.com/fr/courses/1871271-developpez-votre-site-web-avec-le-framework-django/1871426-le-fonctionnement-de-django) du site OpenClassRooms.
 
+
+#### <span style="color: #26B260">A ce stade du projet, vous avez atteint le JALON 12 : Se familiariser avec le design pattern MVC </span> 
+
+
 Nous avons maintenant terminé cette fonctionnalté. Nous avons ajouté à notre projet une application `store` qui ne fait rien pour l'instant.
 
-N'oubliez pas de : 
+## A propos de la gestion des versions
 
-+ <span style='color:blue'>Faire un commit de vos changements sur votre dépôt local.</span> 
-+ <span style='color:blue'>Pousser (Push) votre code vers votre dépôt distant sur GitLab.</span> 
+<span style='color:blue'> Pour toute la suite du projet, il vous est demandé de :</span> 
 
++ <span style='color:blue'>Faire un commit dès que la réalisation d'une fonctionnalité ou d'une sous-fonctionnalité est finie.</span> 
++ <span style='color:blue'>Tagger à la fin de chaque journée votre dernier commit </span> 
++ <span style='color:blue'>De faire une revue de code au sein de l'équipe pour chaque fonctionnalité.</span>
++ <span style='color:blue'>De mettre le code stable sur la branche `master`.</span>
++ <span style='color:blue'>Pousser (Push) le code vers votre dépôt distant sur GitLab.</span> 
++ <span style='color:blue'>Faire un test de couverture de code à la fin de chaque journée et de pousser le bilan obtenu vers votre dépôt distant sur GitLab.</span>
 
 Et nous allons maintenant compléter notre application en passant à la [**Fonctionnalité 3** : Ajout de la page d'accueil et d'une vue.](./S1_vue.md)
 

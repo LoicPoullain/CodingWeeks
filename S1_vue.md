@@ -12,7 +12,7 @@ Revenons à notre application `store` et regardons la structuration qui a été 
 
 Il n'y a par contre pas de référence aux templates. Il nous faut donc maintenant créer un repertoire `templates` dans notre application vue qui contiendra les différents gabarits de notre application.
 
-Ajouter ce répertoire avec PyCharmEdu. On ajoutera ensuite à ce répertoire un sous-repertoire du nom de notre application.
+Ajouter ce répertoire à votre projet. On ajoutera ensuite à ce répertoire un sous-repertoire du nom de notre application.
 
 Votre projet devrait maintenant avoir cette structuration
 
@@ -217,6 +217,10 @@ Dans notre cas, cette étape n'est pas forcement nécéssaire. On peut, pour app
 1. **Après cette étape, n'oubliez pas de relancer les tests pour vérifier que le comportement de votre code n'a pas changé et que tout est encore bien AU VERT !**
 
 2. On vient ici de terminer la réalisation de l'étape *Créer une vue* et il convient donc de **committer ce changement dans votre gestionnaire de version avec un message de commit explicite reprenant l'objectif de l'étape**. Pensez aussi à mettre à jour votre dépôt distant.
+
+#### <span style="color: #26B260">A ce stade du projet, vous avez atteint le JALON 3 : Ecrire du code dans une démarche TDD </span> 
+
+
 
 Nous pouvons maintenant passer à le [**Fonctionnalité 4** : Ajouter des produits dans le modèle.](./S1_addmodels.md)
 
