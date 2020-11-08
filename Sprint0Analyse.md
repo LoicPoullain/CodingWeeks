@@ -17,7 +17,7 @@ En particulier, le MVP :
 + **Aura une page d'accueil permettant aux différents utilisateurs de se connecter à la plate-forme de vente**.
 +  **Permettra de visualiser un catalogue de produits**.
 + **Permettra de rechercher des produits.**
-+ **.**
++ **...**
 
  
 D'autres fonctionnalités pourront bien sûr être ajoutées ensuite pour améliorer votre projet après avoir fini ce MVP mais en construisant une chaîne de bout en bout, vous pourrez rapidement avoir des retours sur votre produit et ses fonctionnalités.
