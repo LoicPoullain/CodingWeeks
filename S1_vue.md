@@ -40,6 +40,8 @@ urlpatterns = [
 ]
 ```
 
+Vous pouvez regarder cette [documentation](https://docs.djangoproject.com/fr/3.1/intro/tutorial01/#path-argument-route) pour comprendre les paramètres de path.
+
 
 ## Etape 3 : Créer une vue en mode TDD.
 
