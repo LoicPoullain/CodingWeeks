@@ -10,6 +10,10 @@ L'**objectif** de ce mini-projet est de développer, de manière très incrémen
 
 Au travers de ce projet, vous decouvrirez les bases de la programmation web en python, avec le framework [Django](https://www.djangoproject.com/) ainsi plusieurs principes du mouvement dit du [*Software Craftmanship*](https://www.octo.com/fr/publications/20-culture-code). 
 
+## Avant de commencer
+
+Faire le tuto Git : https://github.com/hudelotc/CentraleSupelec_CodingWeeks_2020
+Faire le test : https://centralesupelec.edunao.com/mod/quiz/view.php?id=36700
 
 ## Django et pourquoi Django ?
 
