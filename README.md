@@ -1,4 +1,4 @@
-# Groupe 15 - Développement d'applications web - Django
+# Groupe 15 - Développement d'applications web - Django - projet *Saclay Local*
 
 Bienvenue aux Coding Weeks !
 
@@ -8,6 +8,7 @@ Ce cours sera divisé en deux séquences. La première semaine sera dédiée à 
 
 Avant de commencer, merci de bien vouloir :
 - vous mettre par équipe de cinq,
+- rejoindre les équipes MSTeams *Coding Weeks - Espace commun* (code: 2evfnrc) *Coding Weeks - Application Web*,
 - et rejoindre le canal #cw15_webapp sur Slack,
 
 > Slack est une plateforme de communication collaborative très utilisée en entreprise. C'est par ce biais que vous pourrez discuter entre vous, partager du code et recevoir des informations complémentaires de la part des encadrants. Vous pouvez soit télécharger l'application Slack ou utiliser la version en ligne.
