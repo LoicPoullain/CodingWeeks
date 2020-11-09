@@ -17,7 +17,10 @@ C'est parti !
 
 ## Avant de commencer
 
-Faire le tuto Git : https://github.com/hudelotc/CentraleSupelec_CodingWeeks_2020
+Faire le tuto Git :
+- Vidéo : https://web.microsoftstream.com/video/ec2b9aa4-f1c4-42dc-994d-f99b767992d1
+- https://github.com/hudelotc/CentraleSupelec_CodingWeeks_2020
+
 Faire le test : https://centralesupelec.edunao.com/mod/quiz/view.php?id=36700
 
 ## Le Comptoir Local de Saclay : Un site web pour l'achat en ligne de paniers de produits locavores.
