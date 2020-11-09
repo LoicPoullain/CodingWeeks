@@ -11,7 +11,7 @@ Comme nous sommes dans une problématique de modélisation, Django fait appel au
 
 Prenons par exemple la table `Producer` et considérons qu'elle a un champ `ID` et un champ `name` . Pour la représenter en Django, nous allons créer une nouvelle classe `Producer` en suivant la syntaxe ci-dessous :
 
-```PYTHON
+```python
 from django.db import models
 
 class Producer(models.Model):
@@ -31,7 +31,7 @@ Django fournit aussi la possibilité de représenter des relations :
 
  + **relation un à un (one to one)**.  Cette relation se déclare avec la classe [`OnetoOneField`](https://docs.djangoproject.com/fr/2.1/topics/db/examples/one_to_one/) dans la classe qui contient la clé étrangère. Par exemple supposons une relation un à un entre un `Produit` et une réservation de ce produit (on met le produit dans le panier) que l'on représentera par la classe `Basket` alors la classe `Basket` possédera la déclaration suivante dans sa définition:
 
- ```PYTHON
+```python
  class Basket(models.Model):
     ...
     product = models.OneToOneField(Product)
@@ -39,7 +39,7 @@ Django fournit aussi la possibilité de représenter des relations :
  
  + **relation plusieurs à un (many to one)**. Cette relation se déclare avec la classe [`ForeignKey`](https://docs.djangoproject.com/fr/2.1/topics/db/examples/many_to_one/). Supposons par exemple que nous avons une classe `Client` correspondant à une table `Client` et que nous voulons modéliser la relation entre un client et un panier. C'est une relation **plusieurs à un**, un client peut avoir plusieurs mais un panier ne peut être qu'à un seul client.
 
- ```PYTHON
+```python
  class Basket(models.Model):
     ...
     client = models.ForeignKey(Client, on_delete=models.CASCADE)
@@ -48,7 +48,7 @@ Django fournit aussi la possibilité de représenter des relations :
  
  + **relation plusieurs à plusieurs (many to many)**. Cette relation se déclare avec la classe [ManyToManyField](https://docs.djangoproject.com/fr/2.1/topics/db/examples/many_to_many/). Supposons par exemple que le site permet de representer une relation entre les Clients et les Producteurs. On aurait la syntaxe ci-dessous :
 
- ```PYTHON
+```python
  class Producer(models.Model):
     name = models.CharField(max_length=200, unique=True)
     clients = models.ManyToManyField(Client, related_name='producers', blank=True)

@@ -83,7 +83,7 @@ Avant d'écrire les tests correspondants à cette fonctionnalité, nous allons  
 
 Dans le fichier `tests.py`, recopier le code ci-dessous :
 
-```PYTHON
+```python
 class SmokeTest(TestCase):
 
     def test_bad_maths(self):
@@ -117,7 +117,7 @@ Ceci se traduit pour Django par les actions suivantes :
 
 Ecrivons donc les tests correspondants à ces deux vérifications.
 
-```PYTHON
+```python
 from django.urls import resolve
 from django.test import TestCase
 from store.views import index
@@ -160,7 +160,7 @@ Il suffit pour cela de :
  + Il faut repondre à l'erreur nous disant que le module `store.views`n'a pas de fontion `index`.
  Rajoutons donc le code suivant dans le module `views`
  
- ```PYTHON
+```python
 def index():
     pass
  ```
@@ -170,7 +170,7 @@ def index():
  
 Ajoutons donc dans le fichier `urls.py` du projet `saclay_local`, le code suivant :
 
-```PYTHON
+```python
 ...
 from django.urls import re_path
 import store.views
@@ -190,7 +190,7 @@ Le premier test devrait cette fois-ci passer.
 
 Attaquons nous donc maintenant au second test qui est toujours en echec. Nous pouvons répondre au problème `index() takes 0 positional arguments but 1 was given` en modifiant la fonction `index` de la manière suivante:
 
-```PYTHON
+```python
 from django.http import HttpResponse
 
 def index(request):

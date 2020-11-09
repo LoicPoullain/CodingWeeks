@@ -84,7 +84,7 @@ Si vous souhaitez utiliser une autre base de données, il faut suivre les consig
  
 Pour la configuration de la base de données, il faut modifier le contenu du fichier `settings.py` qui contient actuellement le code suivant :
 
-```PYTHON
+```python
 """
 Django settings for saclay_local project.
 

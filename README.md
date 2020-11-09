@@ -107,7 +107,7 @@ A ce stade, nous avons un site minimal avec toutes ses briques fonctionnelles. V
   
  Par exemple, pour la page d'accueil et la vue lui correspondant, on peut mettre à jour la méthode `index`de la manière suivante :
 
-```PYTHON
+```python
 def index(request):
     products = Product.objects.filter(available=True).order_by('-created_at')[:12]
     ...
@@ -119,7 +119,7 @@ def index(request):
 
 et en l'affichant dans le gabarit (dans le fichier `.html`) via la syntaxe :
 
-```
+```html
 <ul>
 {% for product in products %}
     <li>{{ products }}</li>
@@ -129,7 +129,7 @@ et en l'affichant dans le gabarit (dans le fichier `.html`) via la syntaxe :
 
  + En générant automatiquement les url dans votre fichier de gabarit. Par exemple, supposons que vous ayez généré l'URL pattern suivant dans votre fichier `urls.py`, pour permettrr d'avoir une page pour produit (on veut par exemple afficher le détail de chaque produit). Vous auriez dans votre fichier `urls.py`:
 
- ```PYTHON
+```python
  ...
 urlpatterns = [
     url(r'^(?P<product_id>[0-9]+)/$', views.detail, name='detail'),
@@ -137,7 +137,7 @@ urlpatterns = [
 ```
 Il vous faut maintenant ajouter dans le fichier html correspondant le code suivant :
 
-```
+```html
 <a href="{% url 'detail' product_id=product.id %}">
   <img class="img-responsive" src="{{ product.image }}" alt="{{ product.title }}">
 </a>

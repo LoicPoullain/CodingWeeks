@@ -7,7 +7,7 @@ Nous allons maintenant ajouter une nouvelle vue qui liste des produits en vente 
 
 On n'utilisera pas de base de données dans cette étape et on se contentera d'ajouter 3 produits d'un même producteur dans le fichier `models.py`
 
-```PYTHON
+```python
 PRODUCERS = {
   'ferme_viltain': {'name': 'Ferme_de_Viltain'},
 }

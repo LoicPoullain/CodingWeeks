@@ -18,7 +18,7 @@ Vous pouvez ajouter autant de nouveaux collaborateurs que vous le souhaitez depu
 
 Vous pouvez aussi configurer cette interface d'administration via le fichier `admin.py` qui a été généré automatiquement. Vous pouvez par exemple ajouter une table à cette interface en modifiant ce fichier comme ci-dessous:
 
-```PYTHON
+```python
 from django.contrib import admin
 from .models import Producer
 

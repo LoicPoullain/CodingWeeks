@@ -11,7 +11,7 @@ Modifier votre fonction `index(request)`de telle sorte que vous affichiez l'ense
 
 Vous pourrez par exemple utiliser la fonction `filter` en suivant l'exemple ci-dessous.
 
-```PYTHON
+```python
 def index(request):
     products = Product.objects.all()
     formatted_products = ["<li>{}</li>".format(product.name) for product in products]

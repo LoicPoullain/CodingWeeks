@@ -22,7 +22,7 @@ C'est une application python que l'on peut donc très simplement installer à l'
 
 Une fois installée, il faut maintenant l'associer à notre projet `saclay_local` ce qui se fait très simplement à l'intérieur du fichier `settings.py` en le modifiant avec les lignes de code ci-dessous :
 
-```PYTHON
+```python
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -38,7 +38,7 @@ L'application Django Debug Toolbar doit pouvoir accéder aux tables de la base d
 
 En particulier, votre fichier `settings.py` doit être actualisé avec :
 
-```PYTHON
+```python
 MIDDLEWARE = [
     # ...
     'debug_toolbar.middleware.DebugToolbarMiddleware',
@@ -51,7 +51,7 @@ INTERNAL_IPS = ['127.0.0.1']
 
 Et le fichier `urls.py` doit aussi être modifié de la façon suivante :
 
-```PYTHON
+```python
 from django.conf import settings
 from django.conf.urls import include, url  # For django versions before 2.0
 from django.urls import include, path  # For django versions from 2.0 and up
@@ -121,7 +121,7 @@ store/
 Il vous reste maintenant à ajouter votre application `store` à votre projet
 `saclay_local` en ajoutant ce code dans le fichier `settings.py`comme vu tout à l'heure
 
-```PYTHON
+```python
 INSTALLED_APPS = [
     'store.apps.StoreConfig',
     # ...
