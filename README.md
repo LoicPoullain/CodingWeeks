@@ -8,8 +8,8 @@ Ce cours sera divisé en deux séquences. La première semaine sera dédiée à 
 
 Avant de commencer, merci de bien vouloir :
 - vous mettre par équipe de cinq,
-- rejoindre les équipes MSTeams *Coding Weeks - Espace commun* (code: 2evfnrc) *Coding Weeks - Application Web*,
-- et rejoindre le canal #cw15_webapp sur Slack,
+- rejoindre les équipes MSTeams *Coding Weeks - Espace commun* (code: 2evfnrc) *Coding Weeks - Application Web* (code: a7k9bxp),
+- et rejoindre le canal #cw15_webapp sur [Slack](https://join.slack.com/t/cscodingweeks20202021/shared_invite/zt-i978lg5u-1Ss8EpZdyJBCfig4cVIhLA),
 
 > Slack est une plateforme de communication collaborative très utilisée en entreprise. C'est par ce biais que vous pourrez discuter entre vous, partager du code et recevoir des informations complémentaires de la part des encadrants. Vous pouvez soit télécharger l'application Slack ou utiliser la version en ligne.
 
@@ -21,9 +21,6 @@ Faire le tuto Git : https://github.com/hudelotc/CentraleSupelec_CodingWeeks_2020
 Faire le test : https://centralesupelec.edunao.com/mod/quiz/view.php?id=36700
 
 ## Le Comptoir Local de Saclay : Un site web pour l'achat en ligne de paniers de produits locavores.
-
-
-> Cet espace correspond au projet **SaclayComptoirLocal** de la première semaine des coding weeks.
 
 L'**objectif** de ce mini-projet est de développer, de manière très incrémentale, un prototype de ce que pourrait être un site web d'achat en ligne de paniers de produits locaux à l'image de [*La Ruche qui dit oui*](https://laruchequiditoui.fr/fr) ou [*La Ruche qui dit oui à la maison*](https://alamaison.laruchequiditoui.fr/)
 
