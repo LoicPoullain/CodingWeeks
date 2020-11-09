@@ -1,4 +1,25 @@
-# Le Comptoir Local de Saclay : Un site web pour l'achat en ligne de paniers de produits locavores.
+# Groupe 15 - Développement d'applications web - Django
+
+Bienvenue aux Coding Weeks !
+
+Ce séminaire de deux semaines va vous permettre de monter en compétences en développement et développement web (utilisation de Git, Gitlab, python, Django, etc). A l'issue de cette période, vous serez en mesure de créer un petit site web fonctionnel.
+
+Ce cours sera divisé en deux séquences. La première semaine sera dédiée à l'apprentissage. La seconde sera une semaine projet où vous développerez une application web de votre choix sur lequel vous serez noté.
+
+Avant de commencer, merci de bien vouloir :
+- vous mettre par équipe de cinq,
+- et rejoindre le canal #cw15_webapp sur Slack,
+
+> Slack est une plateforme de communication collaborative très utilisée en entreprise. C'est par ce biais que vous pourrez discuter entre vous, partager du code et recevoir des informations complémentaires de la part des encadrants. Vous pouvez soit télécharger l'application Slack ou utiliser la version en ligne.
+
+C'est parti !
+
+## Avant de commencer
+
+Faire le tuto Git : https://github.com/hudelotc/CentraleSupelec_CodingWeeks_2020
+Faire le test : https://centralesupelec.edunao.com/mod/quiz/view.php?id=36700
+
+## Le Comptoir Local de Saclay : Un site web pour l'achat en ligne de paniers de produits locavores.
 
 
 > Cet espace correspond au projet **SaclayComptoirLocal** de la première semaine des coding weeks.
@@ -9,11 +30,6 @@ L'**objectif** de ce mini-projet est de développer, de manière très incrémen
 ![Ruchequiditoui](./Images/comptoirlocal.png)
 
 Au travers de ce projet, vous decouvrirez les bases de la programmation web en python, avec le framework [Django](https://www.djangoproject.com/) ainsi plusieurs principes du mouvement dit du [*Software Craftmanship*](https://www.octo.com/fr/publications/20-culture-code). 
-
-## Avant de commencer
-
-Faire le tuto Git : https://github.com/hudelotc/CentraleSupelec_CodingWeeks_2020
-Faire le test : https://centralesupelec.edunao.com/mod/quiz/view.php?id=36700
 
 ## Django et pourquoi Django ?
 
