@@ -7,7 +7,7 @@ Ce séminaire de deux semaines va vous permettre de monter en compétences en d�
 Ce cours sera divisé en deux séquences. La première semaine sera dédiée à l'apprentissage. La seconde sera une semaine projet où vous développerez une application web de votre choix sur lequel vous serez noté.
 
 Avant de commencer, merci de bien vouloir :
-- vous mettre par équipe de cinq (des groupes sont déjà constitués par défaut mais vous pouvez en changer, le fichier où sont listés les groupes est dans MSTeams, voir [screenshot](./images/groupes.png)),
+- vous mettre par équipe de cinq (des groupes sont déjà constitués par défaut mais vous pouvez en changer, le fichier où sont listés les groupes est dans MSTeams, voir [screenshot](./Images/groupes.png)),
 - rejoindre les équipes MSTeams *Coding Weeks - Espace commun* (code: 2evfnrc) *Coding Weeks - Application Web* (code: a7k9bxp),
 - et rejoindre le canal #cw15_webapp sur [Slack](https://join.slack.com/t/cscodingweeks20202021/shared_invite/zt-i978lg5u-1Ss8EpZdyJBCfig4cVIhLA),
 
