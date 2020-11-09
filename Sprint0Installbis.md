@@ -1,5 +1,6 @@
 # SaclayLocal - Sprint 0 : Installation du socle technique
 
+**Durant tout le TP, si vous avez des problèmes d'installation ou de configuration, n'hésitez pas à consulter [cette page](https://github.com/LoicPoullain/je-code).**
 
 Le premier travail consiste à préparer le socle technique nécéssaire au bon développement du projet. Le projet **saclaylocal** sera :
 
