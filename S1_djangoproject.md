@@ -8,6 +8,7 @@ L'objectif de cette fonctionnalité est d'installer le framework Django et de cr
 La première étape consiste en l'installation de Django. On peut le faire facilement via l'utilitaire Pypi avec la commande 
 `pip install django` ou `pip3 install django`
 
+:point_right: [Je n'arrive pas à installer Django](https://github.com/LoicPoullain/je-code/blob/master/probleme-installation-django.md).
 
 Vous pouvez tester l'installation de Django en testant la commande `import django` dans votre console python et en demandant quelle est la version avec la commande `django.get_version()`
 
@@ -45,14 +46,16 @@ Nous reviendrons sur ces différents fichiers dans la suite de ce projet.
 
 Vous pouvez maintenant lancer le serveur de développement Django avec la commande 
 
-`./manage.py runserver `
+`python manage.py runserver `
+
+:point_right: [Je n'arrive pas à lancer le serveur Django](https://github.com/LoicPoullain/je-code/blob/master/probleme-lancement-serveur-django.md).
 
 Un problème ? Lisez le message et **faites ce qui vous est conseillé**.
 
 Avec cette commande, vous avez démarré le serveur de développement de Django, un serveur Web léger entièrement écrit en Python qui est inclus avec Django de façon à vous permettre de développer rapidement, sans avoir à vous occuper de la configuration d’un serveur de production tant que vous n’en avez pas besoin.
 
 
-L'exécution du script `./manage.py runserver`  affiche un ensemble d'information et en particulier vous donne l'addresse url du serveur de développement.
+L'exécution du script `python manage.py runserver`  affiche un ensemble d'information et en particulier vous donne l'addresse url du serveur de développement.
 
 `Starting development server at http://127.0.0.1:8000/`
 
