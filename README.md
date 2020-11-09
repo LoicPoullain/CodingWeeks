@@ -15,7 +15,7 @@ Avant de commencer, merci de bien vouloir :
 
 C'est parti !
 
-## Avant de commencer
+## Avant de commencer : introduction à Git
 
 Faire le tuto Git :
 - Vidéo : https://web.microsoftstream.com/video/ec2b9aa4-f1c4-42dc-994d-f99b767992d1
@@ -23,97 +23,47 @@ Faire le tuto Git :
 
 Faire le test : https://centralesupelec.edunao.com/mod/quiz/view.php?id=36700
 
-## Le Comptoir Local de Saclay : Un site web pour l'achat en ligne de paniers de produits locavores.
 
-L'**objectif** de ce mini-projet est de développer, de manière très incrémentale, un prototype de ce que pourrait être un site web d'achat en ligne de paniers de produits locaux à l'image de [*La Ruche qui dit oui*](https://laruchequiditoui.fr/fr) ou [*La Ruche qui dit oui à la maison*](https://alamaison.laruchequiditoui.fr/)
+## Pour commencer
 
+### Visual Studio Code (VSCode)
 
-![Ruchequiditoui](./Images/comptoirlocal.png)
+Nous vous recommandons fortement d'installer et d'utiliser [Visual Studio Code](https://code.visualstudio.com/) (à ne pas confondre avec Visual Studio) qui est un éditeur qui s'est beaucoup popularisé ces dernières années. Il est très adapté à python et au développement web et, surtout, il est très facile à prendre en main et à comprendre. Les démonstrations au tableau seront faites avec celui-ci.
 
-Au travers de ce projet, vous decouvrirez les bases de la programmation web en python, avec le framework [Django](https://www.djangoproject.com/) ainsi plusieurs principes du mouvement dit du [*Software Craftmanship*](https://www.octo.com/fr/publications/20-culture-code). 
+Vous pouvez utiliser un autre éditeur si vous le souhaitez. Ce sera alors de votre responsabilité de savoir l'utiliser.
 
-## Django et pourquoi Django ?
+:point_right: [Je ne sais pas utiliser VSCode](https://github.com/LoicPoullain/je-code/blob/master/utiliser-visual-studio-code.md).
 
-![Django](./Images/django.png)
+### Vérifications des installations
 
-**Django** est un framework entièrement Python destiné au web au même titre que :
+Nous allons maintenant vérifier que vous avez les programmes requis installés sur votre ordinateur et qu'ils sont bien configurés.
 
- + [Flask](http://flask.pocoo.org/) dont plusieurs tutoriels sont disponibles [ici](https://realpython.com/tutorials/flask/)
- + [TurboGears](http://www.turbogears.org/)
- + [Web2py](http://www.web2py.com/init/default/index)
- + ...
+Si vous ne l'avez pas déjà fait, installez [Git](https://git-scm.com/) et [python 3](https://www.python.org/downloads/).
 
-**Django** est un framework très complet et qui dispose d'une très grande communauté et est donc très [documenté](https://docs.djangoproject.com/en/2.1/). 
-Des [exemples de codes](https://djangosnippets.org/) et des [packages réutilisables](https://djangopackages.org/) sont aussi disponibles.
- 
+Ouvrez ensuite un terminal et exécutez les commandes suivantes :
 
+> Si vous êtes sur Windows, votre terminal s'appelera "Invite de commandes", "cmd", "Git bash" ou "Powershell". Par simplicité, le terme "terminal" sera utilisé par la suite.
 
-Ce projet est inspiré et une adaptation du très bon cours de Céline Martinez Sanchez sur  OpenClassRooms : [Découvrez le framework Django !](https://openclassrooms.com/fr/courses/4425076-decouvrez-le-framework-django).
+```
+git --version
+python --version
+pip --version
+```
 
-De même, le [tutorial de Django](https://docs.djangoproject.com/fr/3.1/intro/tutorial01/) lui-même nous servira souvent de support pour la montée en compétences sur cette technologie.
+Vous devriez obtenir un résultat de cette forme.
 
-## Organisation du mini-projet
+```
+git version 2.15.1
+Python 3.7.6
+pip 20.2.3
+```
 
-Ce mini-projet est découpé en plusieurs objectifs, eux-même découpés en  **sprints** et **fonctionnalités**. La notion de sprint fait référence à la [méthode agile](https://fr.wikipedia.org/wiki/M%C3%A9thode_agile). Un sprint correspond à un intervalle de temps pendant lequel l’équipe projet va compléter un certain nombre de tâches.
+Si ce n'est pas le cas, merci de suivre un des liens ci-dessous :
 
-Ce travail de découpage a été fait pour vous mais c'est une des premières étapes à faire pour tout projet de developpement logiciel, au moins de manière macroscopique. **Pensez-y la semaine prochaine !**
+:point_right: [J'obtiens une erreur quand j'exécute ces commandes](https://github.com/LoicPoullain/je-code/blob/master/regler-les-problemes-de-path.md).
 
-### Objectif 1 (MVP): Un site fonctionnel *pas très beau* et *pas très plein* qui affiche un catalogue de produits locaux
+:point_right: [La version affichée de python n'est pas la version 3](https://github.com/LoicPoullain/je-code/blob/master/connaitre-sa-version-de-python.md).
 
-Le premier objectif est de constuire et d'implémenter une version simple de notre site que l'on pourrait qualifier de **[MVP (Minimum Viable product)](https://medium.com/creative-wallonia-engine/un-mvp-nest-pas-une-version-simplifi%C3%A9e-de-votre-produit-89017ac748b0)**. Par exemple, dans notre cas, le MVP sera un site qui permet d'afficher en ligne un catalogue de produits locaux, ces derniers étant stockés dans une base de données.
+## La suite
 
-Ce concept de MVP a été popularisé par Eric Ries, l'auteur de [The Lean Startup](http://theleanstartup.com/), une approche spécifique du démarrage d'une activité économique et du lancement d'un produit. La figure ci-dessous permet de bien expliquer ce concept.
-
-![MVP](./Images/mvp.png)
-
- + **Sprint 0** :
-	 + [Installation du socle technique.](./Sprint0Installbis.md)
-	 + [Analyse des besoins.](./Sprint0Analyse.md) 
-	 + [Refexion autour de la conception.](./Sprint0Conception.md)
-
- + **Sprint 1 : Un premier projet avec [Django](https://www.djangoproject.com/) : un site avec une page d'accueil**  
- 
- 	+ [**Fonctionnalité 1** : Prise en main de Django : création d'un projet Django.](./S1_djangoproject.md)
- 	+ [**Fonctionnalité 2** : Une application pour le catalogue de produits.](./S1_djangoapp.md)
- 	+ [**Fonctionnalité 3** : Ajout de la page d'accueil et d'une vue.](./S1_vue.md)
-
- + **Sprint 2 : Amélioration du site pour afficher une liste de produits et répondre à des requêtes sur ces produits**
- 	
- 	+ [**Fonctionnalité 4** : Ajouter des produits dans le modèle.](./S1_addmodels.md)
- 	+ [**Fonctionnalité 5** : Transmission d'information dans une requête .](./S1_addparameters.md)
- 		
-
- 	
-
-### Objectif 2 : Le modèle : ajouter des informations et des données à notre site 
-
-+  **Sprint 3** : **Concever et implémenter le modèle de votre base de données**
-	+ [**Fonctionnalité 6** : Un modèle SQL avec SQLDesigner](./S3_model.md) 
-	+ [**Fonctionnalité 7** : Création de notre modèle avec l'ORM Django](./S3_ORM.md) 
-
-+  **Sprint 4** : **Migrations vers la base de données** 
-	+ [**Fonctionnalité 8** : Mise en place des migrations entre Django et la base de données](./S4_migrations.md)
-	+ [**Fonctionnalité 9** : Utilisation de la console Django pour ajouter des données](./S4_ajoutdonnees.md)
-
-+ **Sprint 5** : **Connecter les vues aux données**
-	+ [**Fonctionnalité 10** : Mettre à jour les vues pour afficher les données de la base de données](./S5_updateviews.md)
-
-
-### Objectif 3 : La vue : on améliore le design 
-+ **Sprint 6** : **Ameliorer le design de l'application**
-	+ [**Fonctionnalité 11** : Choisir un theme pour notre application](./S6_statictheme.md)
-	+ [**Fonctionnalité 12** : Integrer les fichiers statiques](./S6_staticthemeintegration.md)
-
-
-### Objectif 4 : Ajout d'une interface d'administration 
-
-+ **Sprint 7** : **Administrer l'application**
-
-  + [**Fonctionnalité 13** : Administrer notre application](./S7_administrer.md)
-
-
-### Objectif 5 : On améliore notre site.
-
-+ **Sprint 8** : **Aller plus loin**
-
-  + [**Fonctionnalité 14** : Aller plus loin](./5-objectif-allerplusloin.md)
+:point_right: La suite [ici](./tutorial.md).
