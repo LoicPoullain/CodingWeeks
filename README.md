@@ -15,15 +15,6 @@ Avant de commencer, merci de bien vouloir :
 
 C'est parti !
 
-## Avant de commencer : introduction à Git
-
-Faire le tuto Git :
-- Vidéo : https://web.microsoftstream.com/video/ec2b9aa4-f1c4-42dc-994d-f99b767992d1
-- https://github.com/hudelotc/CentraleSupelec_CodingWeeks_2020
-
-Faire le test : https://centralesupelec.edunao.com/mod/quiz/view.php?id=36700
-
-
 ## Pour commencer
 
 ### Visual Studio Code (VSCode)
@@ -64,6 +55,15 @@ Si ce n'est pas le cas, merci de suivre un des liens ci-dessous :
 
 :point_right: [La version affichée de python n'est pas la version 3](https://github.com/LoicPoullain/je-code/blob/master/connaitre-sa-version-de-python.md).
 
-## La suite
+### Introduction à Git et Gitlab
+
+Deux tutoriels sont mis à votre disposition pour apprendre à utiliser Git et Gitlab. L'un est une vidéo et l'autre est sur Github :
+- https://web.microsoftstream.com/video/ec2b9aa4-f1c4-42dc-994d-f99b767992d1
+- https://github.com/hudelotc/CentraleSupelec_CodingWeeks_2020
+
+Une fois les tutoriels suivis, rendez-vous sur EDUNAO pour passer un test de compréhension :
+https://centralesupelec.edunao.com/mod/quiz/view.php?id=36700.
+
+## Créer une application web avec Django
 
 :point_right: La suite [ici](./tutorial.md).
