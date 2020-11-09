@@ -6,7 +6,7 @@ Le premier travail consiste à préparer le socle technique nécéssaire au bon 
 
 + Un projet Visual Studio Code 
 + Utilisant [git](https://git-scm.com/) comme gestionnaire de version
-+ + Qui sera déposé sur le [GitLab pédagogique de CentraleSupélec](https://gitlab-cw4.centralesupelec.fr/) dédié dans votre cas `gitlab-cw4.centralesupelec.fr`.
++ Qui sera déposé sur le [GitLab pédagogique de CentraleSupélec](https://gitlab-cw4.centralesupelec.fr/) dédié dans votre cas `gitlab-cw4.centralesupelec.fr`.
 
 
 
