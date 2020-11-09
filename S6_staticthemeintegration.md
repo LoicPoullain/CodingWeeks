@@ -20,7 +20,7 @@ Pour cette étape, il faut :
  
  Il vous faut maintenant modifier le fichier `views.py` en mettant à jour la fonction `index` de telle sorte qu'elle affiche ce fichier `index.html`
  
- ``` PYTHON
+ ```python
  from django.template import loader
  def index(request):
 
@@ -35,7 +35,7 @@ La dernière chose à faire est de mettre à jour les styles dans le fichier ind
 
 Il faut en particulier remplacer :
 
-```
+```html
 <!-- Bootstrap Core CSS -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -54,7 +54,7 @@ Il faut en particulier remplacer :
 
 Par 
 
-```
+```html
 {% load static %}
 
 <!-- Bootstrap Core CSS -->

@@ -149,7 +149,7 @@ Cela suppose bien entendu que vous avez ajouté un champ `image` à votre modèl
 
  Il faudra pour cela que vous ajoutiez un gabarit `search_form.html`, dans lequel vous écrirez un formulaire de recherche.
  
- ```
+ ```html
  <div class="col-lg-12 detail-separator">
   <form class="col-md-6 col-md-offset-3 text-center" action="{% url 'store:search' %}" method="get" accept-charset="utf-8">
     <div class="form-group">

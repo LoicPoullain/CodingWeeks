@@ -235,7 +235,7 @@ Ces applications sont incluses par défaut par commodité parce que ce sont les 
 
 Certaines de ces applications utilisent au moins une table de la base de données, donc il faut créer les tables dans la base avant de pouvoir les utiliser. Il faut donc lancer la commande 
 
-```
+```bash
 python manage.py migrate
 ```
  

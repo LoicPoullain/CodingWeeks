@@ -27,7 +27,7 @@ Typiquement, il faudrait pour notre application définir une classe `Producer` e
 
 Dans notre cas, on pourrait par exemple avoir le code suivant :
 
-```
+```python
 from django.db import models
 
 
@@ -63,7 +63,7 @@ Pour cela, il faudra indiquer à notre projet que l’application `store` est in
 
 Pour inclure l’application dans notre projet, nous avons besoin d’ajouter une référence à sa classe de configuration dans le réglage `INSTALLED_APPS`. La classe `StoreConfig` se trouve dans le fichier `store/apps.py`, ce qui signifie que son chemin pointé est 'store.apps.StoreConfig'. Modifiez le fichier `saclaylocal/settings.py` et ajoutez ce chemin pointé au réglage `INSTALLED_APPS`. Il doit ressembler à ceci dans ce cas:
  
- ```
+ ```python
  INSTALLED_APPS = [
     'polls.apps.StoreConfig',
     'django.contrib.admin',
@@ -79,7 +79,7 @@ Django sait qu’il doit inclure l’application `store`.
 
 La commande 
 
-```
+```bash
 python manage.py makemigrations store
 ```
  

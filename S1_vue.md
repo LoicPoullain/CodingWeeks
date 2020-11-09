@@ -12,14 +12,14 @@ Revenons à notre application `store` et regardons la structuration qui a été 
 
 Il n'y a, par contre, pas de référence aux templates. Il nous faut donc maintenant créer un repertoire `templates` dans notre application vue qui contiendra les différents gabarits de notre application.
 
-```
+```bash
 mkdir store\templates
 ```
 ou directement depuis votre éditeur.
 
 Ajouter ce répertoire à votre projet. On ajoutera ensuite à ce répertoire un sous-repertoire du nom de notre application.
 
-```
+```bash
 mkdir store\templates\store
 ```
 
@@ -32,13 +32,13 @@ Votre projet devrait maintenant avoir cette structuration
 
 Les URLs représentent les routes de navigation de notre site. Pour les définir, nous allons ajouter un fichier `urls.py` à notre applicaton `store`. En effet, nous avons déjà un fichier `urls.py` se situant dans le répertoire consacré à la configuration du projet mais une bonne pratique consiste cependant à créer un fichier `urls.py`  par **application** et à l'importer dand le fichier de route du projet.
 
-```py
+```python
 urlpatterns = []
 ```
 
 Ensuite mettez à jour le fichier `urls.py` du projet `saclay_local`en important le contenu du fichier `urls.py` de `store`de la manière suivante :
 
-```py
+```python
 from django.contrib import admin
 from django.urls import include, path
 
