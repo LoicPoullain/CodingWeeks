@@ -35,7 +35,7 @@ Ouvrez ensuite un terminal et exécutez les commandes suivantes :
 
 > Si vous êtes sur Windows, votre terminal s'appelera "Invite de commandes", "cmd", "Git bash" ou "Powershell". Par simplicité, le terme "terminal" sera utilisé par la suite.
 
-```
+```bash
 git --version
 python --version
 pip --version
@@ -43,7 +43,7 @@ pip --version
 
 Vous devriez obtenir un résultat de cette forme.
 
-```
+```bash
 git version 2.15.1
 Python 3.7.6
 pip 20.2.3
