@@ -89,6 +89,8 @@ Avant d'écrire les tests correspondants à cette fonctionnalité, nous allons  
 Dans le fichier `tests.py`, recopier le code ci-dessous :
 
 ```python
+from django.test import TestCase
+
 class SmokeTest(TestCase):
 
     def test_bad_maths(self):
