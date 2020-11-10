@@ -13,14 +13,16 @@ Revenons à notre application `store` et regardons la structuration qui a été 
 Il n'y a, par contre, pas de référence aux templates. Il nous faut donc maintenant créer un repertoire `templates` dans notre application vue qui contiendra les différents gabarits de notre application.
 
 ```bash
-mkdir store\templates
+mkdir store\templates # Pour Windows
+mkdir store/templates # Pour Mac et Linux
 ```
 ou directement depuis votre éditeur.
 
 Ajouter ce répertoire à votre projet. On ajoutera ensuite à ce répertoire un sous-repertoire du nom de notre application.
 
 ```bash
-mkdir store\templates\store
+mkdir store\templates\store # Pour Windows
+mkdir store/templates/store # Pour Mac et Linux
 ```
 
 Votre projet devrait maintenant avoir cette structuration
