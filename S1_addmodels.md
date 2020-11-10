@@ -103,7 +103,7 @@ Appliquer la même prodécure que dans la fonctionnalité précédente pour :
 + ajout d'une vue dans `views.py`
 + récupération des données du modèle
 
-**Cette partie nécessite de la réflexion et du travail en autonomie. N'hésitez pas à chercher sur google et à [regarder la doc de django](https://docs.djangoproject.com/en/2.1/intro/)**.
+**Cette partie nécessite de la réflexion et du travail en autonomie. N'hésitez pas à chercher sur google et à [regarder la doc de django](https://docs.djangoproject.com/en/3.1/intro/tutorial01/)**.
 
 On essaiera ici à nouveau de mettre en oeuvre la technique TDD. 
 
