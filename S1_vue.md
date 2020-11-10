@@ -35,6 +35,8 @@ Votre projet devrait maintenant avoir cette structuration
 Les URLs représentent les routes de navigation de notre site. Pour les définir, nous allons ajouter un fichier `urls.py` à notre applicaton `store`. En effet, nous avons déjà un fichier `urls.py` se situant dans le répertoire consacré à la configuration du projet mais une bonne pratique consiste cependant à créer un fichier `urls.py`  par **application** et à l'importer dand le fichier de route du projet.
 
 ```python
+from django.urls import path
+
 def temporary_function():
   pass
 
