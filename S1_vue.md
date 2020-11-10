@@ -41,15 +41,18 @@ urlpatterns = []
 Ensuite mettez à jour le fichier `urls.py` du projet `saclay_local`en important le contenu du fichier `urls.py` de `store`de la manière suivante :
 
 ```python
-from django.contrib import admin
+from django.conf import settings
 from django.urls import include, path
 
-...
-
 urlpatterns = [
-    path('admin/', admin.site.urls),
     path('store/', include('store.urls')),
 ]
+
+if settings.DEBUG:
+    import debug_toolbar
+    urlpatterns = [
+        path('__debug__/', include(debug_toolbar.urls)),
+    ] + urlpatterns
 ```
 
 Vous pouvez regarder cette [documentation](https://docs.djangoproject.com/fr/3.1/intro/tutorial01/#path-argument-route) pour comprendre les paramètres de path.
