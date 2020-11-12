@@ -2,7 +2,7 @@
 
 
 L'objectif de cette fonctionnalité est de s'occuper du **T** du modèle MVT.
-Nous allons d'abord commencer par choisir un thème pour notre site. Allez sur [ce site](https://startbootstrap.com/template-categories/all/) et choisissez le thème que vous souhaitez et télécharger le. 
+Nous allons d'abord commencer par choisir un thème pour notre site. Allez sur [ce site](https://startbootstrap.com/template-categories/all/) et choisissez le thème que vous souhaitez et téléchargez-le. 
 
 Ce travail de choix du thème se fait bien sûr avec le client.
 
