@@ -6,7 +6,7 @@ Le premier travail consiste à préparer le socle technique nécéssaire au bon 
 
 + Un projet Visual Studio Code 
 + Utilisant [git](https://git-scm.com/) comme gestionnaire de version
-+ + Qui sera déposé sur le [GitLab pédagogique de CentraleSupélec](https://gitlab-cw4.centralesupelec.fr/) dédié dans votre cas `gitlab-cw4.centralesupelec.fr`.
++ Qui sera déposé sur le [GitLab pédagogique de CentraleSupélec](https://gitlab-cw4.centralesupelec.fr/) dédié dans votre cas `gitlab-cw4.centralesupelec.fr`.
 
 
 
@@ -25,12 +25,9 @@ D'autres ressources intéressantes sur git :
 
 Les consignes à suivre pour cette mise en place et pour une bonne prise en main de git sont dans [ce tutorial](https://github.com/hudelotc/CentraleSupelec_CodingWeeks_2020/blob/main/Git_install.md) qu'il vous faut donc suivre jusqu'au bout.
 
-#### <span style="color: #26B260">A la fin de ce tutorial vous aurez atteint le JALON 1 : Mise en place de Git et GitLab pour un travail de développement collaboratif</span> 
+:point_right: Alternativement, si vous n'arrivez pas à configurer votre dépôt avec le précédent tutoriel, vous pouvez aussi suivre [celui-ci](https://github.com/LoicPoullain/je-code/blob/master/configurer-depot-gitlab.md).
 
-
-
-
-
+**A la fin de ce tutorial vous aurez atteint le JALON 1 : Mise en place de Git et GitLab pour un travail de développement collaboratif**
 
 ## Créer un projet python avec Visual Studio Code : **`saclaylocal`**
 

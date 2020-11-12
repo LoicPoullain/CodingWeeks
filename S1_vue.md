@@ -13,14 +13,16 @@ Revenons à notre application `store` et regardons la structuration qui a été 
 Il n'y a, par contre, pas de référence aux templates. Il nous faut donc maintenant créer un repertoire `templates` dans notre application vue qui contiendra les différents gabarits de notre application.
 
 ```bash
-mkdir store\templates
+mkdir store\templates # Pour Windows
+mkdir store/templates # Pour Mac et Linux
 ```
 ou directement depuis votre éditeur.
 
 Ajouter ce répertoire à votre projet. On ajoutera ensuite à ce répertoire un sous-repertoire du nom de notre application.
 
 ```bash
-mkdir store\templates\store
+mkdir store\templates\store # Pour Windows
+mkdir store/templates/store # Pour Mac et Linux
 ```
 
 Votre projet devrait maintenant avoir cette structuration
@@ -39,15 +41,18 @@ urlpatterns = []
 Ensuite mettez à jour le fichier `urls.py` du projet `saclay_local`en important le contenu du fichier `urls.py` de `store`de la manière suivante :
 
 ```python
-from django.contrib import admin
+from django.conf import settings
 from django.urls import include, path
 
-...
-
 urlpatterns = [
-    path('admin/', admin.site.urls),
     path('store/', include('store.urls')),
 ]
+
+if settings.DEBUG:
+    import debug_toolbar
+    urlpatterns = [
+        path('__debug__/', include(debug_toolbar.urls)),
+    ] + urlpatterns
 ```
 
 Vous pouvez regarder cette [documentation](https://docs.djangoproject.com/fr/3.1/intro/tutorial01/#path-argument-route) pour comprendre les paramètres de path.
@@ -84,6 +89,8 @@ Avant d'écrire les tests correspondants à cette fonctionnalité, nous allons  
 Dans le fichier `tests.py`, recopier le code ci-dessous :
 
 ```python
+from django.test import TestCase
+
 class SmokeTest(TestCase):
 
     def test_bad_maths(self):

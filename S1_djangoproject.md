@@ -13,9 +13,9 @@ La première étape consiste en l'installation de Django. On peut le faire facil
 Vous pouvez tester l'installation de Django en testant la commande `import django` dans votre console python et en demandant quelle est la version avec la commande `django.get_version()`
 
 
-## Etape 2 : Creer la structure de votre projet Django
+## Etape 2 : Créer la structure de votre projet Django
 
-A l'aide de votre terminal, placer vous à la racine du répertoire de votre projet `saclaylocal` et tapez la commande suivante :
+A l'aide de votre terminal, placer vous à la racine du répertoire de votre projet git `saclaylocal` et tapez la commande suivante :
 
 `django-admin startproject saclay_local`
 
@@ -44,9 +44,17 @@ Nous reviendrons sur ces différents fichiers dans la suite de ce projet.
 
 ## Etape 3 : Lancer le serveur Django
 
+Déplacez-vous dans le premier dossier `saclay_local`.
+
+```
+cd saclay_local
+```
+
 Vous pouvez maintenant lancer le serveur de développement Django avec la commande 
 
-`python manage.py runserver `
+```
+python manage.py runserver
+```
 
 :point_right: [Je n'arrive pas à lancer le serveur Django](https://github.com/LoicPoullain/je-code/blob/master/probleme-lancement-serveur-django.md).
 
@@ -59,7 +67,7 @@ L'exécution du script `python manage.py runserver`  affiche un ensemble d'infor
 
 `Starting development server at http://127.0.0.1:8000/`
 
-Vous pouvez maintenant ouvrir cette url (très souvent `http://127.0.0.1:8000/`) avec votre navigateur et vous devriez avoir cette page.
+Vous pouvez maintenant ouvrir cette url (très souvent http://127.0.0.1:8000/) avec votre navigateur et vous devriez avoir cette page.
 
 ![psql](./Images/djangourl.png)
 
@@ -83,9 +91,7 @@ Pour un projet plus conséquent, vous pouvez bien-sûr utiliser une base de donn
 
 Si vous souhaitez utiliser une autre base de données, il faut suivre les consignes de ce [tutoriel](https://docs.djangoproject.com/fr/3.1/topics/install/#database-installation) et ce [guide](https://docs.djangoproject.com/fr/3.1/ref/settings/#std:setting-DATABASES). La [partie dédiée](https://openclassrooms.com/fr/courses/4425076-decouvrez-le-framework-django/4630835-creez-un-nouveau-projet#/id/r-4630761) du tutoriel d'OpenClassRooms est aussi une bonne alternative.
 
-
- 
-Pour la configuration de la base de données, il faut modifier le contenu du fichier `settings.py` qui contient actuellement le code suivant :
+Ouvrez le fichier `settings.py` qui contient actuellement le code suivant :
 
 ```python
 """
@@ -248,7 +254,7 @@ Cette commande examine `INSTALLED_APPS` et crée les tables de base de données 
 
 Vous verrez apparaître un message pour chaque migration appliquée. 
  
-Vous pouvez si le souhaitez lancez le client en ligne de commande de votre base de données pour afficher les tables créées par Django.  (dans notre cas `sqlite` ne possède pas vraiment de client, mais vous pourriez quand même utiliser la commande `sqlite3` et pour accéder au table `.schema`). 
+Vous pouvez si le souhaitez lancer le client en ligne de commande de votre base de données pour afficher les tables créées par Django.  (dans notre cas `sqlite` ne possède pas vraiment de client, mais vous pourriez quand même utiliser la commande `sqlite3` et pour accéder au table `.schema`). 
 
  
 Nous verrons plus tard comment définir le schéma de la base de données.
