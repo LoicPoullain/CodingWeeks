@@ -9,7 +9,7 @@ Ce cours sera divisé en deux séquences. La première semaine sera dédiée à 
 Avant de commencer, merci de bien vouloir :
 - vous mettre par équipe de cinq (des groupes sont déjà constitués par défaut mais vous pouvez en changer, le fichier où sont listés les groupes est dans MSTeams, voir [screenshot](./Images/groupes.png)),
 - rejoindre les équipes MSTeams *Coding Weeks - Espace commun* (code: 2evfnrc) *Coding Weeks - Application Web* (code: a7k9bxp),
-- et rejoindre le canal #cw15_webapp sur [Slack](https://join.slack.com/t/cscodingweeks20202021/shared_invite/zt-i978lg5u-1Ss8EpZdyJBCfig4cVIhLA),
+- et rejoindre le canal #cw15_webapp sur [Slack](https://join.slack.com/t/cscodingweeks20202021/shared_invite/zt-i978lg5u-1Ss8EpZdyJBCfig4cVIhLA).
 
 > Slack est une plateforme de communication collaborative très utilisée en entreprise. C'est par ce biais que vous pourrez discuter entre vous, partager du code et recevoir des informations complémentaires de la part des encadrants. Vous pouvez soit télécharger l'application Slack ou utiliser la version en ligne.
 

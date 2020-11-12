@@ -6,7 +6,7 @@ Django possède par défaut une interface d'administration.
 
 Lancez le serveur et allez à  `http://127.0.0.1:8000/admin`. Vous arrivez sur l'interface d'administration. Pour y accéder, il faut avoir un compte utilisateur, ce que l'on fait avec la commande :
 
-`./manage.py createsuperuser`
+`python manage.py createsuperuser`
 
 
 Une fois le compte crée, nous pouvons maintenant relancer le serveur et rentrer dans cette interface d'administration (`http://127.0.0.1:8000/admin`).
