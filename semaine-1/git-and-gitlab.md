@@ -63,3 +63,5 @@ __pycache__
 *.pyc
 db.sqlite3
 ```
+
+:point_right: _[J'ai ignoré cette étape et j'ai maintenant des problèmes avec Git](https://github.com/LoicPoullain/je-code/blob/master/ajout-gitignore.md)_.
