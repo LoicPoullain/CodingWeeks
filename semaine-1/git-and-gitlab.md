@@ -53,7 +53,7 @@ Une fois fait, rendez-vous sur EDUNAO pour passer ce [test](#) de compréhension
 
 Notre dépôt Gitlab est presque prêt. Il nous reste maitenant à ajouter un `.gitignore`.
 
-Il y a certain nombre de fichiers que nous ne voudrons pas *commiter* durant ce TP. Il s'agit de la base de données et des fichiers *cache* de python se terminant par `*.pyc`.
+Il y a certain nombre de fichiers que nous ne voudrons pas *commiter* durant ce TP. Il s'agit de la base de données, des fichiers *cache* de python se terminant par `*.pyc` ou encore de ceux gérant notre futur environnement virtuel.
 
 Pour les ignorer à l'avenir (et ne pas avoir de douloureux conflits à gérer), ajoutez un fichier `.gitignore` à votre dépôt avec le contenu suivant :
 
@@ -62,6 +62,7 @@ Pour les ignorer à l'avenir (et ne pas avoir de douloureux conflits à gérer),
 __pycache__
 *.pyc
 db.sqlite3
+venv
 ```
 
 :point_right: _[J'ai ignoré cette étape et j'ai maintenant des problèmes avec Git](https://github.com/LoicPoullain/je-code/blob/master/ajout-gitignore.md)_.

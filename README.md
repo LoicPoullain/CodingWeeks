@@ -40,9 +40,9 @@ Durant cette semaine, des micro-cours seront donnés chaque matin de 9h à 9h30.
 
 [Suivre le tutoriel Gitlab](./semaine-1/git-and-gitlab.md).
 
-### Création d'un environnement virtuel
+### Configurer l'environnement de développement 
 
-[Suivre le tutoriel sur les environnements virtuels](./semaine-1/python-django.md).
+[Suivre le tutoriel sur la configuration de votre environnement de développement](./semaine-1/virtual-environment.md).
 
 ### Dévelopment d'une application Web en Django
 [Suivre le tutoriel Django](./semaine-1/python-django.md).
