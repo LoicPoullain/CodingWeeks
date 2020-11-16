@@ -111,7 +111,7 @@ Vous devez avoir ceci.
 
 
 
-![produits](./Images/products.png)
+![produits](./images/products.png)
 
 ## Etape 3 : couverture de code par vos tests
 
@@ -129,7 +129,7 @@ Pour tester le taux de couverture de votre projet Django, il suffit donc de tape
 
 Puis la commande `coverage report` vous permet d'afficher un bilan et un état de la couverture de votre code.
 
-![coverage](./Images/coverage.png)
+![coverage](./images/coverage.png)
 
 
 #### <span style="color: #26B260">A ce stade du projet, vous avez atteint le JALON 5 : Je sais mettre en oeuvre un mécanisme de couverture de code par des tests </span> 

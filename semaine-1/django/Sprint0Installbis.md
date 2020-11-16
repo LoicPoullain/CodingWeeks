@@ -9,18 +9,6 @@ Le premier travail consiste à préparer le socle technique nécéssaire au bon 
 + Qui sera déposé sur le [GitLab pédagogique de CentraleSupélec](https://gitlab-cw4.centralesupelec.fr/) dédié dans votre cas `gitlab-cw4.centralesupelec.fr`.
 
 
-
-## Versionner avec git
-
-Comme vous l'avez vu lors du cours SIP et lors du tutorial de début de coding weeks, git est un logiciel de gestion de versions décentralisé. Pour rappel, le tutorial est disponible [ici](https://centralesupelec.edunao.com/pluginfile.php/65396/course/section/4378/cours-1.pdf).
-
-D'autres ressources intéressantes sur git :
-
-+ rapide tutorial [ici](http://rogerdudler.github.io/git-guide/index.fr.html).
-+ [http://marklodato.github.io/visual-git-guide/index-en.html](http://marklodato.github.io/visual-git-guide/index-en.html)
-+ [https://openclassrooms.com/fr/courses/1233741-gerez-vos-codes-source-avec-git](https://openclassrooms.com/fr/courses/1233741-gerez-vos-codes-source-avec-git)
-+ ...
-
 ### Mise en place de Git sur votre projet **`saclay local`**
 
 Les consignes à suivre pour cette mise en place et pour une bonne prise en main de git sont dans [ce tutorial](https://github.com/hudelotc/CentraleSupelec_CodingWeeks_2020/blob/main/Git_install.md) qu'il vous faut donc suivre jusqu'au bout.

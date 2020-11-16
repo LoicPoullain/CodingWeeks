@@ -9,7 +9,7 @@ Ce sera très simple car Django le fait pour nous. Il suffit en effet d'executer
  
  Vous devriez avoir ceci.
  
- ![migrations](./Images/migrations.png)
+ ![migrations](./images/migrations.png)
 
 Vous devez avoir de nouveaux fichiers qui se sont créés dans votre projet comme par exemple le fichier `0001_initial.py` qui s'est ajouté dans le répertoire `migrations`.
 
@@ -19,12 +19,12 @@ Il vous faut ensuite exécuter ces migrations par la commande :
 
  Vous devriez avoir ceci.
  
- ![migrations](./Images/migrate.png)
+ ![migrations](./images/migrate.png)
 
 
 <!--Vous pouvez vérifier que les tables se sont bien créées dans la base PostgreSQL en allant dans la console psql (tapez `psql`) dans un terminal et en tapant la commande `\dt` dans le terminal qui permet de lister les tables.
 
-![migrations](./Images/psqlmigrate.png)
+![migrations](./images/psqlmigrate.png)
 
 On voit que les tables `store_basket`, `store_client`, `store_producer`, `store_producer_clients`, `store_product` sont bien dans la base. Elles sont préfixées par le nom de l'application, ici `store`.
 -->

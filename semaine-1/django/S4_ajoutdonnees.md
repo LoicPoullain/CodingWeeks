@@ -5,7 +5,7 @@ Ici, nous allons voir comment nous pouvons utiliser la console de Django pour in
 
 Pour lancer la commande, il suffit de taper `python manage.py shell` . Cette commande nous ouvre une console Ipython.
 
-![Djangoconsole](./Images/consoledjango.png)
+![Djangoconsole](./images/consoledjango.png)
 
 
 ## Etape 1 : ajouter des données dans la base
@@ -14,7 +14,7 @@ A partir de cette console, vous pouvez ajouter (`save()` ou `create()) ou suppri
 
 
 
-![Consoleuse](./Images/consoleuse.png)
+![Consoleuse](./images/consoleuse.png)
 
 
 Utiliser la console pour alimenter votre base de données.

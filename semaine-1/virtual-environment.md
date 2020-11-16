@@ -1,4 +1,4 @@
-# Création d'un environement virtuel
+# Semaine 1 - Configurer l'environnement de développement 
 
 Nous allons à présent créer un environement virtuel spécifique à votre projet.
 

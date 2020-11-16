@@ -22,7 +22,7 @@ A l'aide de votre terminal, placer vous à la racine du répertoire de votre pro
 Cette commande a permis de créer la structure de votre projet Django et vous devriez avoir maintenant cette structure dans votre projet VSCode.
 
 
-![djangoproject](./Images/djangoproject.png)
+![djangoproject](./images/djangoproject.png)
 
 
 
@@ -69,7 +69,7 @@ L'exécution du script `python manage.py runserver`  affiche un ensemble d'infor
 
 Vous pouvez maintenant ouvrir cette url (très souvent http://127.0.0.1:8000/) avec votre navigateur et vous devriez avoir cette page.
 
-![psql](./Images/djangourl.png)
+![psql](./images/djangourl.png)
 
 
 ## Etape 4 : Associer une base de données à votre projet Django `saclay_local`

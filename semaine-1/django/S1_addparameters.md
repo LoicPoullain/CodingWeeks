@@ -14,7 +14,7 @@ Typiquement, pour l'url `http://127.0.0.1:8000/store/2/, vous devez avoir le sit
 
 
 
-![pomme](./Images/pomme.png)
+![pomme](./images/pomme.png)
 
 
 + <span style='color:blue'>Ajouter votre fichier à votre dépôt git.</span>

@@ -27,7 +27,7 @@ mkdir store/templates/store # Pour Mac et Linux
 
 Votre projet devrait maintenant avoir cette structuration
 
-![template](./Images/template.png)
+![template](./images/template.png)
 
 
 ## Etape 2 : Mise à jour des urls.
@@ -103,7 +103,7 @@ Puis lancer la commande ` python manage.py test`.
 Vous devriez avoir l'exécution de vos tests qui échouent comme ci-dessous
 
 
-![tests](./Images/tests.png)
+![tests](./images/tests.png)
 
 
 Revenons à notre fonctionnalité : quand un utilisateur arrive sur notre page d'accueil, alors il a bien le message d'accueil *"Bienvenue sur le comptoir local de Paris Saclay!"*.

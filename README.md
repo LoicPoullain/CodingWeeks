@@ -45,4 +45,5 @@ Durant cette semaine, des micro-cours seront donnés chaque matin de 9h à 9h30.
 [Suivre le tutoriel sur la configuration de votre environnement de développement](./semaine-1/virtual-environment.md).
 
 ### Dévelopment d'une application Web en Django
+
 [Suivre le tutoriel Django](./semaine-1/python-django.md).

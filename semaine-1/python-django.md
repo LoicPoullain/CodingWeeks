@@ -1,15 +1,17 @@
-## Le Comptoir Local de Saclay : Un site web pour l'achat en ligne de paniers de produits locavores.
+## Semaine 1 - Dévelopment d'une application Web en Django
+
+**Le Comptoir Local de Saclay : Un site web pour l'achat en ligne de paniers de produits locavores.**
 
 L'**objectif** de ce mini-projet est de développer, de manière très incrémentale, un prototype de ce que pourrait être un site web d'achat en ligne de paniers de produits locaux à l'image de [*La Ruche qui dit oui*](https://laruchequiditoui.fr/fr) ou [*La Ruche qui dit oui à la maison*](https://alamaison.laruchequiditoui.fr/)
 
 
-![Ruchequiditoui](./Images/comptoirlocal.png)
+![Ruchequiditoui](./images/django/comptoirlocal.png)
 
 Au travers de ce projet, vous decouvrirez les bases de la programmation web en python, avec le framework [Django](https://www.djangoproject.com/) ainsi plusieurs principes du mouvement dit du [*Software Craftmanship*](https://www.octo.com/fr/publications/20-culture-code). 
 
 ## Django et pourquoi Django ?
 
-![Django](./Images/django.png)
+![Django](./images/django/django.png)
 
 **Django** est un framework entièrement Python destiné au web au même titre que :
 
@@ -39,7 +41,7 @@ Le premier objectif est de constuire et d'implémenter une version simple de not
 
 Ce concept de MVP a été popularisé par Eric Ries, l'auteur de [The Lean Startup](http://theleanstartup.com/), une approche spécifique du démarrage d'une activité économique et du lancement d'un produit. La figure ci-dessous permet de bien expliquer ce concept.
 
-![MVP](./Images/mvp.png)
+![MVP](./images/django/mvp.png)
 
  + **Sprint 0** :
 	 + [Installation du socle technique.](./Sprint0Installbis.md)

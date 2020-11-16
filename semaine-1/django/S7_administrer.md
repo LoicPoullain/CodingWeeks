@@ -11,7 +11,7 @@ Lancez le serveur et allez à  `http://127.0.0.1:8000/admin`. Vous arrivez sur l
 
 Une fois le compte crée, nous pouvons maintenant relancer le serveur et rentrer dans cette interface d'administration (`http://127.0.0.1:8000/admin`).
 
-![admin](./Images/admin.png)
+![admin](./images/admin.png)
 
 Vous pouvez ajouter autant de nouveaux collaborateurs que vous le souhaitez depuis cette page. Chacun possède sa propre page permettant de modifier ses coordonnées.
 
@@ -26,7 +26,7 @@ admin.site.register(Producer)
 ``` 
 
 
- ![admin](./Images/adminbis.png)
+ ![admin](./images/adminbis.png)
  
  
  Prenez le temps de vous faire un tour sur les possibilités de cet interface d'administration.

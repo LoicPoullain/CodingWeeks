@@ -4,7 +4,7 @@ L'objectif ici est de créer le modèle de votre base de données c'est à dire 
 
 Pour le faire de manière visuelle, vous pouvez utiliser l'outil [SQL Designer](http://ondras.zarovi.cz/sql/demo/). La figure ci-dessous est une esquisse de ce que pourrait être votre modèle.
 
-![SQLDesigner](./Images/sqldesigner.png)
+![SQLDesigner](./images/sqldesigner.png)
 
 
 Concevez donc votre modèle et commitez-le. 

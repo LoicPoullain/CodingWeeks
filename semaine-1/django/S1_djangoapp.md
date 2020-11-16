@@ -67,7 +67,7 @@ if settings.DEBUG:
 Si vous relancer le serveur de developpement Django, vous devriez avoir une page d'erreur ainsi que l'application de Debug sur la droite.
 
 
-![debug](./Images/debugdjango.png)
+![debug](./images/debugdjango.png)
 
 
 
@@ -85,7 +85,7 @@ Plaçons-nous au même niveau que le fichier `manage.py`de notre projet avec un 
 Django vient de créer au même niveau que le package `saclay_local` le répertoire `store` comme ci-dessous
 
 
- ![store](./Images/app.png)
+ ![store](./images/app.png)
 
 Ce repertoire contient :
 
