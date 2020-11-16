@@ -1,6 +1,6 @@
 # Semaine 1 - Création d'un dépôt Gitlab
 
-Pour partager votre code entre vous et avec l'encadrant, vous allez utiliser durant ces deux semaines *Git* et *Gitlab*.
+Pour partager votre code entre vous et avec l'encadrant, vous allez utiliser *Git* et *Gitlab* durant ces deux semaines.
 
 > _Git_ est une solution opensource pour gérer les différentes versions d'un code et se les partager.
 
@@ -36,7 +36,7 @@ Une fois cette vérification effectuée, suivez les deux tutoriels ci-dessous po
 
 ### Création d’un dépôt Gitlab commun
 
-Si vous avez suivi correctement le tutoriel précédent, vous devriez maintenant avoir un dépôt sur Gitlab partagé avec votre binôme. N'oubliez pas d'ajouter l'encadrant (i.e @loic.poullain) comme `reporter` à votre dépôt.
+Si vous avez suivi correctement le tutoriel précédent, vous devriez maintenant avoir un dépôt sur Gitlab partagé avec votre binôme. N'oubliez pas d'ajouter les encadrants (i.e @loic.poullain et @celine.hudelot) comme `reporter` à votre dépôt.
 
 :point_right: _[Je n'ai pas réussi à créer mon dépôt commun](https://github.com/LoicPoullain/je-code/blob/master/configurer-depot-gitlab.md)_.
 
@@ -44,6 +44,22 @@ Si vous avez suivi correctement le tutoriel précédent, vous devriez maintenant
 
 TODO: provoquer et gérer des conflits -->
 
+
 ### Test de connaissance
 
-Une fois les tutoriels suivis, rendez-vous sur EDUNAO pour passer un test de compréhension.
+Une fois fait, rendez-vous sur EDUNAO pour passer ce [test](#) de compréhension (obligatoire).
+
+### Ajout d'un `.gitignore`
+
+Notre dépôt Gitlab est presque prêt. Il nous reste maitenant à ajouter un `.gitignore`.
+
+Il y a certain nombre de fichiers que nous ne voudrons pas *commiter* durant ce TP. Il s'agit de la base de données et des fichiers *cache* de python se terminant par `*.pyc`.
+
+Pour les ignorer à l'avenir (et ne pas avoir de douloureux conflits à gérer), ajoutez un fichier `.gitignore` à votre dépôt avec le contenu suivant :
+
+```
+.DS_Store
+__pycache__
+*.pyc
+db.sqlite3
+```

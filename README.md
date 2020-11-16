@@ -1,7 +1,7 @@
 # Groupe 15 - Développement d'applications web en Django
 
 > TODO :
-> - créer et mettre en lien l'excel listant les bureaux
+> - créer et mettre en lien l'excel listant les binômes
 > - créer les canaux 1A et 3A et ajouter le lien d'invitation de Slack
 > - ajouter le lien vers le test EDUNAO sur GIT
 
