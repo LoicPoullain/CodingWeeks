@@ -1,5 +1,10 @@
 # Groupe 15 - Développement d'applications web en Django
 
+> TODO :
+> - créer et mettre en lien l'excel listant les bureaux
+> - créer les canaux 1A et 3A et ajouter le lien d'invitation de Slack
+> - ajouter le lien vers le test EDUNAO sur GIT
+
 Bienvenue aux Coding Weeks !
 
 Ce séminaire de deux semaines va vous permettre de monter en compétences en développement et développement web (utilisation de Git, Gitlab, python, Django, etc). A l'issue de cette période, vous serez en mesure de créer un petit site web fonctionnel.
