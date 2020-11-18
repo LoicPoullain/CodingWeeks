@@ -66,3 +66,5 @@ venv
 ```
 
 :point_right: _[J'ai ignoré cette étape et j'ai maintenant des problèmes avec Git](https://github.com/LoicPoullain/je-code/blob/master/ajout-gitignore.md)_.
+
+<span style="color: #26B260">**A ce stade du projet, vous avez atteint le JALON 1.**</span>

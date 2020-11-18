@@ -50,7 +50,7 @@ L'objectif de ce travail est de vous permettre de modéliser, du point de vue in
 Ici, ce travail a été fait pour vous mais, il faudra le faire pour votre projet de la semaine 2.
 
 
-#### <span style="color: #26B260">A ce stade du projet, vous avez atteint le JALON 2 : Analyse et Conception de mon produit </span> 
+<span style="color: #26B260">**A ce stade du projet, vous avez atteint le JALON 2 : Analyse et Conception de mon produit**</span>.
 
 
 
