@@ -2,10 +2,22 @@
 
 ==================================================================
 
+**Pense-bêtes de Loïc pour l'année prochaine**
+
 _Choses à faire avant de mettre en ligne le tutoriel :_
 - _créer et mettre en lien l'excel listant les binômes,_
 - _créer les canaux 1A et 3A et ajouter le lien d'invitation de Slack,_
 - _ajouter le lien vers le test EDUNAO sur Git (fichier git-and-gitlab.md)._
+
+_Choses pouvant être améliorées dans le tutoriel les années suivantes :_
+- _Dans S1_F1, enlever toute la mention sur les autres BDD avec le `settings.py`. Les élèves sont perdus avec. On pourra la déplacer dans la section "Aller plus loin" et créer "utiliser une autre base de données" par exemple._
+- _Enlever les `re_path` avec les regex. C'est pas très compréhensible pour les élèves et pas forcément utile. Passer à la notation `path('<int:product_id>')` à la place._
+
+_Idées de petits cours à donner la première semaine :_
+- _Git et Gitlab_.
+- _Requêtes HTTP. Exemples avec des formulaires et des fichiers statiques._
+- _Introduction à la programmation objet._
+- _Comprendre ce qu'est un type._
 
 ==================================================================
 
