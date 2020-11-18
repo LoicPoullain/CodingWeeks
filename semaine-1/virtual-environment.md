@@ -1,6 +1,6 @@
 # Semaine 1 - Configurer l'environnement de développement 
 
-Nous allons à présent à présent vérifier la configuration de votre environnement.
+Nous allons à présent vérifier la configuration de votre environnement.
 
 ## Vérification des installations
 
