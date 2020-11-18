@@ -9,7 +9,7 @@ Pour le faire de manière visuelle, vous pouvez utiliser l'outil [SQL Designer](
 
 Concevez donc votre modèle et commitez-le. 
 
-Nous pouvons maintenant créer notre modèle et nous allons pouvoir le faire avec Django qui est aussi un [ORM](https://fr.wikipedia.org/wiki/Mapping_objet-relationnel). Vous avez déjà utiliser un ORM en SIP (SQL Alchemy). Il s'agit de la [**Fonctionnalité 7** : Création de notre modèle avec l'ORM Django](./S3_ORM.md) 
+Nous pouvons maintenant créer notre modèle et nous allons pouvoir le faire avec Django qui est aussi un [ORM](https://fr.wikipedia.org/wiki/Mapping_objet-relationnel). Vous avez déjà utiliser un ORM en SIP (SQL Alchemy). Il s'agit de la [**Fonctionnalité 7** : Création de notre modèle avec l'ORM Django](./S3_F7_ORM.md) 
 
 
  

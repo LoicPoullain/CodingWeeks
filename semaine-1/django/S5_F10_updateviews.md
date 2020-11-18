@@ -45,5 +45,5 @@ Quand vous avez fini, comme nous sommes à la fin d'un sprint :
 
 
 
-Nous allons maintenant améliorer le design de notre site WEB en passant à la fonctionnalité [**Fonctionnalité 11** : Choisir un theme pour notre application](./S6_statictheme.md).
+Nous allons maintenant améliorer le design de notre site WEB en passant à la fonctionnalité [**Fonctionnalité 11** : Choisir un theme pour notre application](./S6_F11_statictheme.md).
 

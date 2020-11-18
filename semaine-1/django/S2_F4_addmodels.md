@@ -147,7 +147,7 @@ Puis la commande `coverage report` vous permet d'afficher un bilan et un état d
 
 
 
-vous pouvez maintenant passer à la [**Fonctionnalité 5** : Transmission d'information dans une requête .](./S1_addparameters.md)
+vous pouvez maintenant passer à la [**Fonctionnalité 5** : Transmission d'information dans une requête .](./S2_F5_addparameters.md)
 
 
 

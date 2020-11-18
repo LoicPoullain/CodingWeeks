@@ -1,9 +1,13 @@
 # Groupe 15 - Développement d'applications web en Django
 
-> TODO :
-> - créer et mettre en lien l'excel listant les binômes
-> - créer les canaux 1A et 3A et ajouter le lien d'invitation de Slack
-> - ajouter le lien vers le test EDUNAO sur GIT
+==================================================================
+
+_Choses à faire avant de mettre en ligne le tutoriel :_
+- _créer et mettre en lien l'excel listant les binômes,_
+- _créer les canaux 1A et 3A et ajouter le lien d'invitation de Slack,_
+- _ajouter le lien vers le test EDUNAO sur Git (fichier git-and-gitlab.md)._
+
+==================================================================
 
 Bienvenue aux Coding Weeks !
 

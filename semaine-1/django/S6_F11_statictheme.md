@@ -8,7 +8,7 @@ Ce travail de choix du thème se fait bien sûr avec le client.
 
 Vous pouvez dezipper le fichier téléchargé. Il contient tout un ensemble de fichiers pour le design de votre site que vous pouvez utiliser tel quel ou modifier si vous connaissez les bases des languages web que sont [javascript](https://www.javascript.com/) et [css](https://www.w3schools.com/css/). 
 
-Nous pouvons maintenant passer à la [**Fonctionnalité 12** : Integrer les fichiers statiques](./S6_staticthemeintegration.md)
+Nous pouvons maintenant passer à la [**Fonctionnalité 12** : Integrer les fichiers statiques](./S6_F12_staticthemeintegration.md)
 
 
 

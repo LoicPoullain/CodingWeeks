@@ -33,7 +33,7 @@ On peut :
  
  La documentation complète est disponible [ici](https://docs.djangoproject.com/fr/2.1/ref/models/querysets/).
  
- Prenez le temps de manipuler un peu votre base et vos données et vous pouvez ensuite passer à la [**Fonctionnalité 10** : Mettre à jour les vues pour afficher les données de la base de données](./S5_updateviews.md)
+ Prenez le temps de manipuler un peu votre base et vos données et vous pouvez ensuite passer à la [**Fonctionnalité 10** : Mettre à jour les vues pour afficher les données de la base de données](./S5_F10_updateviews.md)
  
  
  

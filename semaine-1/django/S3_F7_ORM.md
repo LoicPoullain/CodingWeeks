@@ -63,7 +63,7 @@ N'oubliez pas de :
 + <span style='color:blue'>Pousser (Push) votre code vers votre dépôt distant sur GitLab.</span> 
 
 
-Et nous allons maintenant compléter notre application en passant à la [**Fonctionnalité 8** : Mise en place des migrations entre Django et la base de données](./S4_migrations.md)
+Et nous allons maintenant compléter notre application en passant à la [**Fonctionnalité 8** : Mise en place des migrations entre Django et la base de données](./S4_F8_migrations.md)
 
 
 

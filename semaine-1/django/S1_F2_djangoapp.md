@@ -160,7 +160,7 @@ Nous avons maintenant terminé cette fonctionnalité. Nous avons ajouté à notr
 + <span style='color:blue'>Pousser (Push) le code vers votre dépôt distant sur GitLab.</span> 
 + <span style='color:blue'>Faire un test de couverture de code à la fin de chaque journée et de pousser le bilan obtenu vers votre dépôt distant sur GitLab.</span>
 
-Et nous allons maintenant compléter notre application en passant à la [**Fonctionnalité 3** : Ajout de la page d'accueil et d'une vue.](./S1_vue.md)
+Et nous allons maintenant compléter notre application en passant à la [**Fonctionnalité 3** : Ajout de la page d'accueil et d'une vue.](./S1_F3_vue.md)
 
 
 

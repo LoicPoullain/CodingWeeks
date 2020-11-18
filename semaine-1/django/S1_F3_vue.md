@@ -241,7 +241,7 @@ Dans notre cas, cette étape n'est pas forcement nécéssaire. On peut, pour app
 
 
 
-Nous pouvons maintenant passer à le [**Fonctionnalité 4** : Ajouter des produits dans le modèle.](./S1_addmodels.md)
+Nous pouvons maintenant passer à le [**Fonctionnalité 4** : Ajouter des produits dans le modèle.](./S2_F4_addmodels.md)
 
  
 

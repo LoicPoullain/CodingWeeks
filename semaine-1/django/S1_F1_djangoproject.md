@@ -269,5 +269,5 @@ Nous avons fini cette fonctionnalité donc n'oubliez pas de :
 
 
 
-Nous pouvons maintenant passer à la [**Fonctionnalité 2** : Une application pour le catalogue de produits.](./S1_djangoapp.md)
+Nous pouvons maintenant passer à la [**Fonctionnalité 2** : Une application pour le catalogue de produits.](./S1_F2_djangoapp.md)
 

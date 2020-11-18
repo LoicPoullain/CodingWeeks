@@ -54,7 +54,7 @@ Prenez le temps nécessaire pour faire cette étape. Il s'agit notamment là d'u
 
 
 
-Et on peut maintenant passer à l'[objectif 2](https://gitlab-cw4.centralesupelec.fr/celine.hudelot/cs_codingweek_saclaylocal_2020/-/blob/master/TemplateProject_SacalyLocal.md#objectif-2-le-mod%C3%A8le-ajouter-des-informations-et-des-donn%C3%A9es-%C3%A0-notre-site).
+Et on peut maintenant passer à l'[objectif 2](./S3_F6_model.md).
 
 
 

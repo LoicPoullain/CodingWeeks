@@ -53,19 +53,19 @@ Ce concept de MVP a été popularisé par Eric Ries, l'auteur de [The Lean Start
 > + Le passage et le travail à une nouvelle fonctionnalité se fera donc sur la base d'une branche master synchronisée entre vous tous.
 
  + **Sprint 0** :
-	 + [Analyse des besoins.](./django/Sprint0Analyse.md) 
-	 + [Refexion autour de la conception.](./django/Sprint0Conception.md)
+	 + [Analyse des besoins.](./django/S0_Analyse.md) 
+	 + [Refexion autour de la conception.](./django/S0_Conception.md)
 
  + **Sprint 1 : Un premier projet avec [Django](https://www.djangoproject.com/) : un site avec une page d'accueil**  
  
- 	+ [**Fonctionnalité 1** : Prise en main de Django : création d'un projet Django.](./django/S1_djangoproject.md)
- 	+ [**Fonctionnalité 2** : Une application pour le catalogue de produits.](./django/S1_djangoapp.md)
- 	+ [**Fonctionnalité 3** : Ajout de la page d'accueil et d'une vue.](./django/S1_vue.md)
+ 	+ [**Fonctionnalité 1** : Prise en main de Django : création d'un projet Django.](./django/S1_F1_djangoproject.md)
+ 	+ [**Fonctionnalité 2** : Une application pour le catalogue de produits.](./django/S1_F2_djangoapp.md)
+ 	+ [**Fonctionnalité 3** : Ajout de la page d'accueil et d'une vue.](./django/S1_F3_vue.md)
 
  + **Sprint 2 : Amélioration du site pour afficher une liste de produits et répondre à des requêtes sur ces produits**
  	
- 	+ [**Fonctionnalité 4** : Ajouter des produits dans le modèle.](./django/S1_addmodels.md)
- 	+ [**Fonctionnalité 5** : Transmission d'information dans une requête .](./django/S1_addparameters.md)
+ 	+ [**Fonctionnalité 4** : Ajouter des produits dans le modèle.](./django/S2_F4_addmodels.md)
+ 	+ [**Fonctionnalité 5** : Transmission d'information dans une requête .](./django/S2_F5_addparameters.md)
  		
 
  	
@@ -73,32 +73,32 @@ Ce concept de MVP a été popularisé par Eric Ries, l'auteur de [The Lean Start
 ### Objectif 2 : Le modèle : ajouter des informations et des données à notre site 
 
 +  **Sprint 3** : **Concever et implémenter le modèle de votre base de données**
-	+ [**Fonctionnalité 6** : Un modèle SQL avec SQLDesigner](./django/S3_model.md) 
-	+ [**Fonctionnalité 7** : Création de notre modèle avec l'ORM Django](./django/S3_ORM.md) 
+	+ [**Fonctionnalité 6** : Un modèle SQL avec SQLDesigner](./django/S3_F6_model.md) 
+	+ [**Fonctionnalité 7** : Création de notre modèle avec l'ORM Django](./django/S3_F7_ORM.md) 
 
 +  **Sprint 4** : **Migrations vers la base de données** 
-	+ [**Fonctionnalité 8** : Mise en place des migrations entre Django et la base de données](./django/S4_migrations.md)
-	+ [**Fonctionnalité 9** : Utilisation de la console Django pour ajouter des données](./django/S4_ajoutdonnees.md)
+	+ [**Fonctionnalité 8** : Mise en place des migrations entre Django et la base de données](./django/S4_F8_migrations.md)
+	+ [**Fonctionnalité 9** : Utilisation de la console Django pour ajouter des données](./django/S4_F9_ajoutdonnees.md)
 
 + **Sprint 5** : **Connecter les vues aux données**
-	+ [**Fonctionnalité 10** : Mettre à jour les vues pour afficher les données de la base de données](./django/S5_updateviews.md)
+	+ [**Fonctionnalité 10** : Mettre à jour les vues pour afficher les données de la base de données](./django/S5_F10_updateviews.md)
 
 
 ### Objectif 3 : La vue : on améliore le design 
 + **Sprint 6** : **Ameliorer le design de l'application**
-	+ [**Fonctionnalité 11** : Choisir un theme pour notre application](./django/S6_statictheme.md)
-	+ [**Fonctionnalité 12** : Integrer les fichiers statiques](./django/S6_staticthemeintegration.md)
+	+ [**Fonctionnalité 11** : Choisir un theme pour notre application](./django/S6_F11_statictheme.md)
+	+ [**Fonctionnalité 12** : Integrer les fichiers statiques](./django/S6_F12_staticthemeintegration.md)
 
 
 ### Objectif 4 : Ajout d'une interface d'administration 
 
 + **Sprint 7** : **Administrer l'application**
 
-  + [**Fonctionnalité 13** : Administrer notre application](./django/S7_administrer.md)
+  + [**Fonctionnalité 13** : Administrer notre application](./django/S7_F13_administrer.md)
 
 
 ### Objectif 5 : On améliore notre site.
 
 + **Sprint 8** : **Aller plus loin**
 
-  + [**Fonctionnalité 14** : Aller plus loin](./django/5-objectif-allerplusloin.md)
+  + [**Fonctionnalité 14** : Aller plus loin](./django/S8_F14_allerplusloin.md)
