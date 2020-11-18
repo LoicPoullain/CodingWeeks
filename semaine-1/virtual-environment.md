@@ -30,7 +30,7 @@ Si ce n'est pas le cas, merci de suivre un des liens ci-dessous :
 
 :point_right: [La version affichée de python n'est pas la version 3](https://github.com/LoicPoullain/je-code/blob/master/connaitre-sa-version-de-python.md).
 
-## Création et activation de l'environnement virtuel (optionel)
+<!--## Création et activation de l'environnement virtuel (optionel)
 
 A présent que nous nous sommes assuré que `python` et `pip` étaient bien installés et accessibles, nous allons configurer notre environnement virtuel.
 
@@ -63,7 +63,7 @@ venv\Scripts\activate
 > ```bash
 > deactivate
 > ```
-
+-->
 
 ## Ajout d'une dépendance
 
