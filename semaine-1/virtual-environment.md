@@ -1,6 +1,6 @@
 # Semaine 1 - Configurer l'environnement de développement 
 
-Nous allons à présent créer un environement virtuel spécifique à votre projet.
+Nous allons à présent à présent vérifier la configuration de votre environnement.
 
 ## Vérification des installations
 
