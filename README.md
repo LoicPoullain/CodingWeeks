@@ -19,6 +19,8 @@ _Idées de petits cours à donner la première semaine :_
 - _Introduction à la programmation objet._
 - _Comprendre ce qu'est un type._
 
+_Lien de la boîte à outils : https://github.com/LoicPoullain/je-code_
+
 ==================================================================
 
 Bienvenue aux Coding Weeks !
