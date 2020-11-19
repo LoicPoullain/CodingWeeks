@@ -65,3 +65,27 @@ Durant cette semaine, des micro-cours seront donnés chaque matin de 9h à 9h30.
 ### Dévelopment d'une application Web en Django
 
 [Suivre le tutoriel Django](./semaine-1/python-django.md).
+
+<!--
+## Semaine 2
+
+**Consignes pour la soutenance**
+
+**Dépôt Gitlab**
+- @Loïc Poullain et @celine.hudelot doivent être ajoutés au dépôt en reporter .
+- Seule la branche master sera corrigée. Assurez-vous de mettre votre dernière version stable dessus.
+- Votre README doit contenir au début la liste des membres et la description du projet.
+- Créez un fichier requirements.txt avec la commande pip freeze > requirements.txt pour lister vos dépendances.
+- Deadline : cette nuit. Vendredi à 6h, je dois avoir votre dernière version du code sur master.
+
+**Présentation**
+- Produisez un seul document Powerpoint pour la présentation. Commitez-le sur votre dépôt et n'oubliez d'en exporter une version PDF. Il doit être commité sur votre dépôt avant la soutenance.
+- 15 minutes de présentation (avec une démonstration en direct du produit)
+- 5 minutes de questions
+- 5 minutes de débrief
+- IMPORTANT : soyez ponctuels. Connectez-vous sur le MSTeams de groupe Applications Web 2 à 3 minutes avant votre heure de passage. Votre présentation et votre démo doivent être prêtes. Vous les avez sur un ordinateur de rechange au cas où.
+
+**Notation (à titre indicatif)**
+- 1/3 de la note sur la présentation (merci de mettre vos caméras lors de la soutenance), le produit en lui-même et votre gestion de projet et travail en équipe.
+- 2/3 de la note sur l'aspect technique
+-->
