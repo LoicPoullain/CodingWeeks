@@ -8,7 +8,7 @@ L'objectif de cette fonctionnalité est d'ajouter deux nouvelles vues à notre p
 
 ## Etape 1 : Ajouter une vue pour afficher les informations sur le producteur d'un produit
  
-En vous inspirant du [tutoriel](https://docs.djangoproject.com/fr/1.11/intro/tutorial03/#writing-more-views) de Django ou de celui d'[OpenClassRooms](https://openclassrooms.com/fr/courses/4425076-decouvrez-le-framework-django/4631210-passez-des-arguments-a-une-vue), ajoutez à votre application une vue, en mode TDD, pour permettre d'afficher des informations sur un produit donné.
+En vous inspirant du [tutoriel](https://docs.djangoproject.com/en/3.2/intro/tutorial03/#writing-more-views) de Django, ajoutez à votre application une vue, en mode TDD, pour permettre d'afficher des informations sur un produit donné.
 
 Typiquement, pour l'url `http://127.0.0.1:8000/store/2/, vous devez avoir le site ci-dessous.
 
